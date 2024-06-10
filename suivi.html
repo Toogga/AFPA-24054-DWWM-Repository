@@ -1,0 +1,386 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon projet Fil rouge</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/5f5c6d4b2b.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="imageLibreDeDroit/bc2a72ba7d62aac5c6da9ed583a92e63-removebg-preview.png">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg" style="background-color: #16222A;">
+            <div class="container-fluid">
+              <img src="imageLibreDeDroit/bc2a72ba7d62aac5c6da9ed583a92e63-removebg-preview.png" alt="logo">
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html" style="color: white;">Acceuil</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="suivi.html"  style="color: white;">Suivi</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+                      Communauté
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="commuJeu.html" style="color: white;">Par jeux</a></li>
+                      <li><a class="dropdown-item" href="commuPlatform.html" style="color: white;">Par plateforme</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#" style="color: white;">Autres</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <div class="d-flex " >
+                    <input class="form-control me-2 text-white" type="search" placeholder="Rechercher" aria-label="Search" style="height: 30px; width: 300px;background-color: #3A6186;">
+                    <button class="btn btn-outline-light d-flex me-5" id="button" type="submit" style="height: 30px;">Rechercher</button>
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNotif" aria-controls="offcanvasNotif"><i class="fa-solid fa-bell"></i></button>
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="offcanvas" data-bs-target="#offcanvasAjout" aria-controls="offcanvasAjout"><i class="fa-solid fa-user-plus"></i></button>
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMessage" aria-controls="offcanvasMessage"><i class="fa-solid fa-comments"></i></button>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+      <section>
+        
+
+
+      </section>
+                                    <!-- Barre latérale caché -->
+      <aside>
+                                    <!-- Barre latérale de notification -->
+
+        <div class="notif">
+          <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasNotif" aria-labelledby="offcanvasNotifLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title m-auto" id="offcanvasNotifLabel">Notification</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div class="container text-center">
+                <div class="row">
+                  <div class="col">
+                    <p>Nouveau commentaire : "Alice a commenté votre vidéo : 'Superbe montage ! J'adore la transition à 1:20.'"</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <p>Mention : "Paul vous a mentionné dans une discussion de salon : 'Je pense que @votrenom pourrait avoir des insights intéressants ici.'"</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <p>Réponse à un commentaire : "Julie a répondu à votre commentaire : 'Merci pour le conseil, je vais essayer !'"</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <p>Nouveau message privé : "Vous avez reçu un message de Marc : 'Salut ! As-tu des recommandations pour des logiciels de montage vidéo ?'"</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <p>Mention J'aime : "Votre avis sur le dernier film de Marvel a reçu 10 mentions 'J'aime'."</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <p>Nouvelle vidéo d'un abonné : "Tom a publié une nouvelle vidéo : 'Mon voyage au Japon - Partie 1'."</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <p>Partage de contenu : "Votre photo de coucher de soleil a été partagée par Anna."</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <p>Recommandation de contenu : "Découvrez le post de Jean : 'Les meilleurs livres à lire cet été' - Cela pourrait vous intéresser !"</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <p>Nouveau abonné VIP : "L'utilisateur vérifié @star_du_web a commencé à vous suivre !"</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <p>Événement à venir : "Ne manquez pas le live de Sophie sur le thème 'Voyage et photographie' demain à 18h."</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <p>Nouveau sujet de discussion : "Un nouveau sujet a été créé dans le salon 'Cuisine : recettes et astuces' : 'Vos desserts préférés pour l'été'."</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <p>Badge de popularité : "Félicitations ! Vous avez gagné le badge 'Influenceur en herbe' pour votre participation active."</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <p>Invitation à collaborer : "L'utilisateur @artiste_peintre vous a invité à collaborer sur un projet artistique."</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <p>Mise à jour de profil : "Votre ami @julie_travels a mis à jour sa photo de profil. Allez voir son nouveau look !"</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <p>Rappel de sécurité : "Votre compte est en sécurité, mais pensez à activer la vérification en deux étapes pour plus de protection."</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+                                    <!-- Barre latérale d'ajout -->
+        <div class="ajout">
+          <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasAjout" aria-labelledby="offcanvasAjoutLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title m-auto" id="offcanvasAjoutLabel">Ajout</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div class="container text-center">
+                <div class="row">
+                  <div class="col-3">
+                    <img src="imageLibreDeDroit/photo perso/Ajout/pexels-koffi-malik-7776202.jpg" alt="AlenaDarmel" style="height: 80px;">
+                  </div>
+                  <div class="col-6">
+                    <p>Koffi Malik</p>
+                    <p>Vous demande en ami(e)</p>
+                  </div>
+                  <div class="col-3">
+                    <button type="button" class="btn btn-outline-light d-flex me-5" data-bs-toggle="button" aria-pressed="true">Suivre</button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">
+                    <img src="imageLibreDeDroit/photo perso/Ajout/pexels-pavel-danilyuk-7776150.jpg" alt="AlenaDarmel" style="height: 80px;">
+                  </div>
+                  <div class="col-6">
+                    <p>Pavel Danilyuk</p>
+                    <p>Vous demande en ami(e)</p>
+                  </div>
+                  <div class="col-3">
+                    <button type="button" class="btn btn-outline-light d-flex me-5" data-bs-toggle="button" aria-pressed="true">Suivre</button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">
+                    <img src="imageLibreDeDroit/photo perso/Ajout/pexels-ron-lach-7848991.jpg" alt="AlenaDarmel" style="height: 80px;">
+                  </div>
+                  <div class="col-6">
+                    <p>Ron Lach</p>
+                    <p>Vous demande en ami(e)</p>
+                  </div>
+                  <div class="col-3">
+                    <button type="button" class="btn btn-outline-light d-flex me-5" data-bs-toggle="button" aria-pressed="true">Suivre</button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">
+                    <img src="imageLibreDeDroit/Perso mess/Alena Darmel.jpg" alt="AlenaDarmel" style="height: 80px;">
+                  </div>
+                  <div class="col-6">
+                    <p>Alena Darmel</p>
+                    <p>Vous demande en ami(e)</p>
+                  </div>
+                  <div class="col-3">
+                    <button type="button" class="btn active btn-outline-light d-flex me-5" data-bs-toggle="button" aria-pressed="true">Suivi</button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">
+                    <img src="imageLibreDeDroit/Perso mess/Harsch Shivam.jpg" alt="AlenaDarmel" style="height: 80px;">
+                  </div>
+                  <div class="col-6">
+                    <p>Harsch Shivam</p>
+                    <p>Vous demande en ami(e)</p>
+                  </div>
+                  <div class="col-3">
+                    <button type="button" class="btn active btn-outline-light d-flex me-5" data-bs-toggle="button" aria-pressed="true">Suivi</button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">
+                    <img src="imageLibreDeDroit/Perso mess/Eric Mclean 2.jpg" alt="AlenaDarmel" style="height: 80px;">
+                  </div>
+                  <div class="col-6">
+                    <p>Eric Mclean</p>
+                    <p>Vous demande en ami(e)</p>
+                  </div>
+                  <div class="col-3">
+                    <button type="button" class="btn active btn-outline-light d-flex me-5" data-bs-toggle="button" aria-pressed="true">Suivi</button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">
+                    <img src="imageLibreDeDroit/Perso mess/Reina Studio.jpg" alt="AlenaDarmel" style="height: 80px;">
+                  </div>
+                  <div class="col-6">
+                    <p>Reina Studio</p>
+                    <p>Vous demande en ami(e)</p>
+                  </div>
+                  <div class="col-3">
+                    <button type="button" class="btn active btn-outline-light d-flex me-5" data-bs-toggle="button" aria-pressed="true">Suivi</button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">
+                    <img src="imageLibreDeDroit/Perso mess/Tima Miroshnichenko.png" alt="AlenaDarmel" style="height: 80px;">
+                  </div>
+                  <div class="col-6">
+                    <p>Tima Miroshnichenko</p>
+                    <p>Vous demande en ami(e)</p>
+                  </div>
+                  <div class="col-3">
+                    <button type="button" class="btn active btn-outline-light d-flex me-5" data-bs-toggle="button" aria-pressed="true">Suivi</button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">
+                    <img src="imageLibreDeDroit/Perso mess/Yan Krukau.jpg" alt="AlenaDarmel" style="height: 80px;">
+                  </div>
+                  <div class="col-6">
+                    <p>Yann Krukau</p>
+                    <p>Vous demande en ami(e)</p>
+                  </div>
+                  <div class="col-3">
+                    <button type="button" class="btn active btn-outline-light d-flex me-5" data-bs-toggle="button" aria-pressed="true">Suivi</button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">
+                    <img src="imageLibreDeDroit/Perso mess/Rayane Villard.jpg" alt="AlenaDarmel" style="height: 80px;">
+                  </div>
+                  <div class="col-6">
+                    <p>Rayanne Villard</p>
+                    <p>Vous demande en ami(e)</p>
+                  </div>
+                  <div class="col-3">
+                    <button type="button" class="btn active btn-outline-light d-flex me-5" data-bs-toggle="button" aria-pressed="true">Suivi</button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">
+                    <img src="imageLibreDeDroit/Perso mess/Roman Odintsov.jpg" alt="AlenaDarmel" style="height: 80px;">
+                  </div>
+                  <div class="col-6">
+                    <p>Roman Odintsov</p>
+                    <p>Vous demande en ami(e)</p>
+                  </div>
+                  <div class="col-3">
+                    <button type="button" class="btn active btn-outline-light d-flex me-5" data-bs-toggle="button" aria-pressed="true">Suivi</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+                                    <!-- Barre latérale de messagerie -->
+        <div class="message">
+          <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasMessage" aria-labelledby="offcanvasMessageLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title m-auto" id="offcanvasMessageLabel">Messagerie</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div class="container text-center">
+                <div class="row">
+                  <div class="col-3">
+                    <img src="imageLibreDeDroit/Perso mess/Alena Darmel.jpg" alt="AlenaDarmel" style="height: 80px;">
+                  </div>
+                  <div class="col-9">
+                    <p>Alena Darmel</p>
+                    <p>Hey tu t’es endormis sur ton clavie...</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">
+                    <img src="imageLibreDeDroit/Perso mess/Harsch Shivam.jpg" alt="AlenaDarmel" style="height: 80px;">
+                  </div>
+                  <div class="col-9">
+                    <p>Harsch Shivam</p>
+                    <p>Yo tu joue ce soir ?</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">
+                    <img src="imageLibreDeDroit/Perso mess/Eric Mclean 2.jpg" alt="AlenaDarmel" style="height: 80px;">
+                  </div>
+                  <div class="col-9">
+                    <p>Eric Mclean</p>
+                    <p>Désoler j’étais sur Valo hier j’ai pas vu que...</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">
+                    <img src="imageLibreDeDroit/Perso mess/Reina Studio.jpg" alt="AlenaDarmel" style="height: 80px;">
+                  </div>
+                  <div class="col-9">
+                    <p>Reina Studio</p>
+                    <p>Ok ça marche moi aussi c’est la derniè...</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">
+                    <img src="imageLibreDeDroit/Perso mess/Tima Miroshnichenko.png" alt="AlenaDarmel" style="height: 80px;">
+                  </div>
+                  <div class="col-9">
+                    <p>Tima Miroshnichenko</p>
+                    <p>Hey whats’up ? I'll call you when I log in !</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">
+                    <img src="imageLibreDeDroit/Perso mess/Yan Krukau.jpg" alt="AlenaDarmel" style="height: 80px;">
+                  </div>
+                  <div class="col-9">
+                    <p>Yann Krukau</p>
+                    <p>Enchanté mec, tu joue a LoL à ce que je ...</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">
+                    <img src="imageLibreDeDroit/Perso mess/Rayane Villard.jpg" alt="AlenaDarmel" style="height: 80px;">
+                  </div>
+                  <div class="col-9">
+                    <p>Rayanne Villard</p>
+                    <p>Une dernière game ?</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3">
+                    <img src="imageLibreDeDroit/Perso mess/Roman Odintsov.jpg" alt="AlenaDarmel" style="height: 80px;">
+                  </div>
+                  <div class="col-9">
+                    <p>Roman Odintsov</p>
+                    <p>Aller c’est bon, je suis mauvais ce soir...</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </aside>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>

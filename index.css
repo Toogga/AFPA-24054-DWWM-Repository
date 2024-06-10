@@ -1,0 +1,61 @@
+nav img {
+    height: 50px;
+}
+nav .d-flex {
+    align-items: center;
+}
+nav .btn {
+    margin-right: 10px;
+}
+body {
+    background-color: #3A6186;
+}
+.col-3 img {
+    border: solid 2px white;
+    border-radius: 25px;
+}
+main aside .row {
+    background-color: #3A6186;
+    border: solid 2px #16222A;
+    padding: 5px;
+}
+.offcanvas-body {
+    background-color: #16222A;
+}
+main p {
+    color: white;
+    margin-bottom: 0;
+}
+.offcanvas-header {
+    background-color: #3A6186;
+}
+.dropdown-menu {
+    background-color: #3A6186;
+    
+}
+section img {
+    width: 100%;
+    border: solid 2px white;
+    border-radius: 20px;
+}
+section h3 {
+    border-bottom: solid 2px #16222A;
+    border-left: solid 2px #16222A;
+    border-radius: 0 0 0 10px;
+    margin: 20px 0 20px 10px;
+    width: 180px;
+    padding: 5px;
+}
+section {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+section .row {
+    margin-bottom: 20px;
+}
+.ajout .offcanvas {
+    width: 500px;
+}
+.ajout .row {
+    align-items: center;
+}
